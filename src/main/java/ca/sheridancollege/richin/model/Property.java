@@ -21,7 +21,7 @@ public class Property {
 
 	    @NotBlank(message = "Address is required")
 	    private String address;
-
+	  //  Changed price to double instead of Double to avoid null issues
 	    @Min(value = 1, message = "Price must be > 0")
 	    private double price;
 
